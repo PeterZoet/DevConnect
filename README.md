@@ -2,10 +2,21 @@
 
 ### Intern IT Kennisplatform & Discussieomgeving
 
-*Productomschrijving*
+DevConnect is split into two runnable projects:
 
-DevConnect is een modern intranet Content Management Systeem speciaal ontworpen voor IT-teams en technische afdelingen. Het platform biedt één centrale plek waar medewerkers technische kennis kunnen delen, documenteren en bespreken.
+- `src/DevConnectApi.Api`: ASP.NET Core Web API with Swagger and in-memory seed data.
+- `src/DevConnectWeb.Blazor`: Blazor front-end that can call the API Swagger endpoint.
 
-Van architectuurkeuzes en code-standaarden tot deployment handleidingen en troubleshooting — DevConnect zorgt ervoor dat kennis niet verloren gaat in losse documenten of chatgesprekken, maar duurzaam wordt vastgelegd en doorzoekbaar blijft.
+## API
 
-Het systeem stimuleert samenwerking via reacties onder artikelen en een geïntegreerd forum waar teams actief met elkaar in discussie kunnen gaan.
+The API exposes:
+
+- `api/articles` for article CRUD
+- `api/forums/threads` for forum threads and comments
+
+Swagger UI is available at `/swagger`.
+
+## Blazor
+
+The Blazor app includes a home page with a button to validate API reachability.
+Configure the API URL in `src/DevConnectWeb.Blazor/appsettings.json` (`ApiBaseUrl`).
