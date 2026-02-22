@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pmjzo\\Projects\\DevConnect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|c:\\users\\pmjzo\\projects\\devconnect\\devconnect.client\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|solutionrelative:devconnect.client\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|c:\\users\\pmjzo\\projects\\devconnect\\devconnect.client\\components\\articles\\articlesoverview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|solutionrelative:devconnect.client\\components\\articles\\articlesoverview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|c:\\users\\pmjzo\\projects\\devconnect\\devconnect.client\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|solutionrelative:devconnect.client\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|c:\\users\\pmjzo\\projects\\devconnect\\devconnect.client\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|solutionrelative:devconnect.client\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|c:\\users\\pmjzo\\projects\\devconnect\\devconnect.client\\components\\articles\\articlesoverview.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C72E9D6-8CC5-42A9-965A-9D208F61CDDF}|DevConnect.Client\\DevConnect.Client.csproj|solutionrelative:devconnect.client\\components\\articles\\articlesoverview.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticlesOverview.razor.cs",
+              "DocumentMoniker": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor.cs",
+              "RelativeDocumentMoniker": "DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor.cs",
+              "ToolTip": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor.cs",
+              "RelativeToolTip": "DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:08:07.157Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -39,40 +49,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "DevConnect.Client\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "DevConnect.Client\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Title": "ArticlesOverview.razor",
+              "DocumentMoniker": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor",
+              "RelativeDocumentMoniker": "DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor",
+              "ToolTip": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor",
+              "RelativeToolTip": "DevConnect.Client\\Components\\Articles\\ArticlesOverview.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T22:38:01.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "DevConnect.Client\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "DevConnect.Client\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T22:37:33.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "DevConnect.Client\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\pmjzo\\Projects\\DevConnect\\DevConnect.Client\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "DevConnect.Client\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T22:36:02.003Z",
+              "WhenOpened": "2026-02-17T00:32:17.614Z",
               "EditorCaption": ""
             }
           ]

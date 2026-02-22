@@ -1,0 +1,18 @@
+﻿@code {
+    [Parameter] public Article? Item { get; set; }
+}
+
+@if (Item != null)
+{
+    <div class="bg-surface border border-secondary rounded-lg p-4">
+        <h2 class="text-xl font-bold mb-2">@Item.Title</h2>
+        <div class="text-xs opacity-60 mb-4">
+            By @Item.Author | @Item.PublishedDate.ToShortDateString()
+        </div>
+        <p class="text-sm">@Item.Content</p>
+    </div>
+}
+else
+{
+    <p class="text-sm opacity-70">No article selected.</p>
+}

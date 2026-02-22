@@ -1,0 +1,33 @@
+﻿:root {
+    --bg-background: #ffffff;
+    --bg-surface: #f8f9fa;
+    --color-text: #1a1a1a;
+    --color-primary: #2563eb;
+    --color-secondary: #e5e7eb;
+    --color-danger: #dc2626;
+}
+
+/* Map tokens to utility-style classes */
+.bg-background {
+    background-color: var(--bg-background);
+}
+
+.bg-surface {
+    background-color: var(--bg-surface);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-text {
+    color: var(--color-text);
+}
+
+.border-secondary {
+    border-color: var(--color-secondary);
+}
+
+.bg-danger {
+    background-color: var(--color-danger);
+}

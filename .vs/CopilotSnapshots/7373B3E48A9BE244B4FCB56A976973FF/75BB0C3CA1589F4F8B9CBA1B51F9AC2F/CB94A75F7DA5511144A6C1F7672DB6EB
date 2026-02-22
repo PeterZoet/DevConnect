@@ -1,0 +1,61 @@
+﻿@inject IJSRuntime JS
+
+<div class="h-full flex flex-col bg-surface border-r border-secondary">
+
+    <!-- Brand -->
+    <div class="h-16 flex items-center px-6 border-b border-secondary">
+        <span class="text-lg font-semibold tracking-tight">
+            DevConnect
+        </span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="flex-1 px-4 py-6 space-y-1">
+
+        <NavLink href="" Match="NavLinkMatch.All"
+                 class="block px-4 py-2 rounded-lg hover:bg-background transition-colors">
+            Home
+        </NavLink>
+
+        <NavLink href="articles"
+                 class="block px-4 py-2 rounded-lg hover:bg-background transition-colors">
+            Articles
+        </NavLink>
+
+        <NavLink href="forum"
+                 class="block px-4 py-2 rounded-lg hover:bg-background transition-colors">
+            Forum
+        </NavLink>
+
+    </nav>
+
+    <!-- Theme Toggle -->
+    <div class="p-4 border-t border-secondary">
+
+        <div class="flex items-center justify-between text-sm mb-2">
+            <span class="opacity-70">Theme</span>
+        </div>
+
+        <div class="flex rounded-lg border border-secondary overflow-hidden">
+
+            <button class="flex-1 py-2 hover:bg-background transition-colors"
+                    @onclick="() => SetTheme(\" light\")">
+                Light
+            </button>
+
+            <button class="flex-1 py-2 border-l border-secondary hover:bg-background transition-colors"
+                    @onclick="() => SetTheme(\" dark\")">
+                Dark
+            </button>
+
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private async Task SetTheme(string theme)
+    {
+        await JS.InvokeVoidAsync("setTheme", theme);
+    }
+}
