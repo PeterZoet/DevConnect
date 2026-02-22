@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  devconnect-api:
+    build:
+      context: .
+      dockerfile: DevConnect.Api/Dockerfile
+    container_name: devconnect-api
+    ports:
+       - "5265:5000"  # host:container
+    networks:
+      - devconnect-network
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - DOTNET_RUNNING_IN_CONTAINER=true
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DOTNET_HOST_PATH=/usr/share/dotnet/dotnet
+      - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
+
+  devconnect-client:
+    build:
+      context: .
+      dockerfile: DevConnect.Client/Dockerfile
+    container_name: devconnect-client
+    ports:
+       - "5000:5001"  # host:container
+    depends_on:
+      - devconnect-api
+    networks:
+      - devconnect-network
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - DOTNET_RUNNING_IN_CONTAINER=true
+      - DOTNET_HOST_PATH=/usr/share/dotnet/dotnet
+      - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
+      - ASPNETCORE_ENVIRONMENT=Development
+
+networks:
+  devconnect-network:
+    driver: bridge

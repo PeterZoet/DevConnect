@@ -1,6 +1,7 @@
-﻿@code {
-    [Parameter] public Article? Item { get; set; }
-}
+﻿@inject NavigationManager Navigation
+@page "/articles/detail"
+
+<Breadcrumb CurrentArticle="Item" />
 
 @if (Item != null)
 {

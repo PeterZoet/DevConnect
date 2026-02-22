@@ -1,0 +1,20 @@
+﻿@inject NavigationManager Navigation
+
+<nav class="mb-4" aria-label="breadcrumb">
+    <div class="d-flex align-items-center flex-wrap gap-2">
+        @foreach (var crumb in Breadcrumbs)
+        {
+            @if (!crumb.IsCurrent)
+            {
+                <a href="@crumb.Url" class="text-primary text-decoration-none" @onclick="(e => Navigate(crumb.Url))">
+                    @crumb.Title
+                </a>
+                <span class="text-muted">/</span>
+            }
+            else
+            {
+                <span class="fw-bold">@crumb.Title</span>
+            }
+        }
+    </div>
+</nav>
